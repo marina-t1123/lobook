@@ -10767,6 +10767,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.body-bg {
+  background: #cccccc;
+}
 /*
 ! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
 *//*
@@ -11222,6 +11225,18 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+}.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}.collapse {
+  visibility: collapse;
 }.fixed {
   position: fixed;
 }.absolute {
@@ -11241,6 +11256,9 @@ video {
 }.mx-auto {
   margin-left: auto;
   margin-right: auto;
+}.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }.-ml-px {
   margin-left: -1px;
 }.-mr-2 {
@@ -11261,6 +11279,8 @@ video {
   margin-left: 1rem;
 }.mr-2 {
   margin-right: 0.5rem;
+}.mr-auto {
+  margin-right: auto;
 }.mt-1 {
   margin-top: 0.25rem;
 }.mt-2 {
@@ -11273,6 +11293,8 @@ video {
   margin-top: 1.5rem;
 }.mt-8 {
   margin-top: 2rem;
+}.mb-2 {
+  margin-bottom: 0.5rem;
 }.block {
   display: block;
 }.flex {
