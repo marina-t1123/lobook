@@ -23,7 +23,7 @@ Route::get('/dashboard', function () {
 
 // TOPページ
 Route::get('/lobook', function () {
-    return view('top');
+    return view('post.index');
 });
 
 require __DIR__.'/auth.php';
