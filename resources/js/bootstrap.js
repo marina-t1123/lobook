@@ -1,5 +1,12 @@
 window._ = require('lodash');
 
+/** Bootstrap・jquery・popperjs/coreを追加した際の設定 */
+try {
+    // window.$ = window.jQuery = require('jquery');
+    // window.Popper = require('@popperjs/core');
+    window.bootstrap = require('bootstrap');
+} catch (e) {}
+
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
