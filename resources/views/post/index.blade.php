@@ -38,10 +38,10 @@
                 <div>
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Sing up</a>
+                      <a class="nav-link" href="{{ route('register') }}">Sing up</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Log in</a>
+                      <a class="nav-link" href="{{ route('login') }}">Log in</a>
                     </li>
                   </ul>
                 </div>
