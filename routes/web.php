@@ -21,9 +21,4 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-// TOPページ
-Route::get('/lobook', function () {
-    return view('post.index');
-});
-
 require __DIR__.'/auth.php';
